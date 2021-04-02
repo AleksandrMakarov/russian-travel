@@ -15,4 +15,4 @@
 * БЭМ структура
 
 **Ссылка на проект**
-* https://github.com/AleksandrMakarov/russian-travel
+* https://aleksandrmakarov.github.io/russian-travel/index.html 

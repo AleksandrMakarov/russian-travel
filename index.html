@@ -10,8 +10,10 @@
   <div class="page">
     <header class="header">
       <img src="./images/header-logo.svg" alt="логотип в виде карты России" class="header__logo"> 
-      <a href="#" target="_blank" rel="noopener" class="header__lang-link header__lang-link_active">Ru</a>
-      <a href="#" target="_blank" rel="noopener" class="header__lang-link">En</a>   
+      <ul class="header__lang-list">
+        <li class="header__lang-element"><a href="#" target="_self" rel="noopener" class="header__lang-link header__lang-link_active">Ru</a></li>
+        <li class="header__lang-element"><a href="#" target="_self" rel="noopener" class="header__lang-link">En</a></li>
+      </ul>   
     </header>
     <main class="content">
       <section class="lead">
@@ -32,11 +34,11 @@
          проехала 20 тысяч километров по родной стране. 
          Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
          <ul class="intro__list">
-          <li><span class="intro__list intro__list_items">Часовых поясов</span> 11</li>
-          <li><span class="intro__list intro__list_items">Объектов природного наследия ЮНЕСКО</span> 12</li>
-          <li><span class="intro__list intro__list_items">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-          <li><span class="intro__list intro__list_items">Природных заповедников</span> 105</li>
-          <li><span class="intro__list intro__list_items">Аэропортов</span> 241</li>
+          <li><span class="intro__list-number">Часовых поясов</span> 11</li>
+          <li><span class="intro__list-number">Объектов природного наследия ЮНЕСКО</span> 12</li>
+          <li><span class="intro__list-number">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+          <li><span class="intro__list-number">Природных заповедников</span> 105</li>
+          <li><span class="intro__list-number">Аэропортов</span> 241</li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -157,9 +159,7 @@
             <a href="https://calendar.yandex.ru" target="_blank" rel="noopener" class="footer__link">Календарь</a>
             <a href="https://travel.yandex.ru" target="_blank" rel="noopener" class="footer__link">Путешествия</a>
           </nav>
-          <div>
             <p class="footer__copyright">&copy; 2021 Александр Макаров</p>
-          </div>
       </footer>  
   </div>
 </body>

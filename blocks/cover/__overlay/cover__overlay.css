@@ -14,7 +14,7 @@
 
 .cover__overlay::before {
     content: '';
-    background: black;
+    background: #2A2C2F;
     opacity: 0.3;
     position: absolute;
     top: 0;
@@ -22,11 +22,12 @@
     right: 0;
     bottom: 0;
     z-index: -1;
-    transform: 0.5s;
+    transform: .5s;
 } 
 
 .cover__overlay:hover:before {
   opacity: 0.8;
+  transition: .5s ease;
 }
 
 @media screen and (max-width: 1279px) {
